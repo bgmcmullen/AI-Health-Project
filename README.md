@@ -173,7 +173,10 @@ Project Link: [https://github.com/devftrejo/AI-Health-Project](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Choose an Open Source License](https://choosealicense.com)
+* [Img Shields](https://shields.io)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
