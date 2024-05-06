@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -7,6 +8,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -14,8 +16,8 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
 <!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
   <a href="https://github.com/devftrejo/AI-Health-Project">
@@ -23,7 +25,9 @@
   </a>
 
 # AI-Health-Project
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <h3 align="center">AI Health Project</h3>
 
   <p align="center">
@@ -40,8 +44,8 @@
   </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -67,8 +71,8 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -83,22 +87,23 @@
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 -->
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 <!--
-* [![JQuery][JQuery.com]][JQuery-url]
--->
+- [![JQuery][JQuery.com]][JQuery-url]
+  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-* npm
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -116,29 +121,30 @@ To get a local copy up and running follow these steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Run the project for development
-   ```sh
-   npm run start
-   ```
+
+```sh
+npm run start
+```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/devftrejo/AI-Health-Project/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -151,16 +157,16 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
@@ -169,20 +175,20 @@ Project Link: [https://github.com/devftrejo/AI-Health-Project](https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [Img Shields](https://shields.io)
-- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Choose an Open Source License](https://choosealicense.com)
+- [Img Shields](https://shields.io)
 
+* [Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/devftrejo/AI-Health-Project.svg?style=for-the-badge
 [contributors-url]: https://github.com/devftrejo/AI-Health-Project/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/devftrejo/AI-Health-Project.svg?style=for-the-badge
@@ -211,5 +217,4 @@ Project Link: [https://github.com/devftrejo/AI-Health-Project](https://github.co
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-
+[JQuery-url]: https://jquery.com
