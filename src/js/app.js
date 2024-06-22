@@ -1,15 +1,15 @@
+import Homepage from './views/Homepage';
+import Header from './views/Header';
+import Footer from './views/Footer';
+
 const App = async () => {
   const template = document.createElement('template');
   template.innerHTML = `
-    <header>
-      HEADER
-    </header>
+    ${Header()}
     <main class="container-fluid flex-fill">
-      CONTENT
+      ${Homepage()}
     </main>
-    <footer>
-      FOOTER
-    </footer>
+    ${Footer()}
   `;
   // Return a new node from template
   return template.content.cloneNode(true);
