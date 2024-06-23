@@ -1,0 +1,67 @@
+#splashscreen {
+  display: flex;
+  min-height: 100vh;
+
+  .splash-logo {
+    height: 15vh;
+  }
+
+  .spinner-grow {
+    --bs-spinner-width: 3rem;
+    --bs-spinner-height: 3rem;
+    --bs-spinner-animation-speed: 4s;
+  }
+
+  @keyframes spinner-grow {
+    0% {
+      transform: scale(0);
+      color: $light-turquoise;
+    }
+    12% {
+      opacity: 1;
+      transform: none;
+    }
+    24% {
+      transform: none;
+      color: $light-turquoise;
+    }
+    25% {
+      opacity: 0;
+      transform: scale(0);
+      color: $orange;
+    }
+    37% {
+      opacity: 1;
+      transform: none;
+    }
+    49% {
+      transform: none;
+      color: $orange;
+    }
+    50% {
+      opacity: 0;
+      transform: scale(0);
+      color: $cerulean-blue;
+    }
+    62% {
+      opacity: 1;
+      transform: none;
+    }
+    74% {
+      transform: none;
+      color: $cerulean-blue;
+    }
+    75% {
+      opacity: 0;
+      transform: scale(0);
+      color: $red;
+    }
+    87% {
+      opacity: 1;
+      transform: none;
+    }
+    100% {
+      color: $red;
+    }
+  }
+}
