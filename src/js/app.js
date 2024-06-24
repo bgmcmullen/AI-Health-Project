@@ -1,6 +1,7 @@
 import Homepage from './views/Homepage';
 import Header from './views/Header';
 import Footer from './views/Footer';
+import Uploading from './views/Uploading';
 
 const App = async () => {
   const template = document.createElement('template');
@@ -8,6 +9,7 @@ const App = async () => {
     ${Header()}
     <main class="container-fluid flex-fill">
       ${Homepage()}
+      ${Uploading()}
     </main>
     ${Footer()}
   `;
