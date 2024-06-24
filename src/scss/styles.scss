@@ -28,6 +28,7 @@ $theme-colors: map-merge($theme-colors, (
 // Import module SCSS
 @import "layout";
 @import "splashscreen";
+@import "uploading";
 
 // Define font classes
 .roboto-medium {
