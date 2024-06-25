@@ -1,5 +1,5 @@
-import "../components/UploadBtn.js";
-import "../components/EnterManuallyBtn.js";
+import "../components/Upload.js";
+import "../components/EnterManually.js";
 
 const Homepage = () => {
 	const template = `
