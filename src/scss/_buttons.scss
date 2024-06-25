@@ -1,0 +1,32 @@
+// SHARED BY ALL BUTTONS
+.btn {
+  text-transform: uppercase;
+  border-radius: 9999px;
+}
+
+// BUTTON WITH SHADOW
+.btn-shadow {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+// FILLED BUTTON
+.btn-filled {
+  background-image: linear-gradient($light-turquoise, $cerulean-blue);
+  border: none;
+  color: white;
+  padding: 9px 32px;
+}
+
+// BORDERED BUTTON
+.btn-border {
+  padding: 0;
+  border: double 1px transparent;
+  background-image: linear-gradient(white, white), linear-gradient($light-turquoise, $cerulean-blue);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: $cerulean-blue;
+
+  span {
+    margin: 8px 32px;
+  }
+}

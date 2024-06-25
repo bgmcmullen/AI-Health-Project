@@ -28,6 +28,8 @@ $theme-colors: map-merge($theme-colors, (
 // Import module SCSS
 @import "layout";
 @import "splashscreen";
+@import "buttons";
+@import "homepage";
 @import "uploading";
 
 // Define font classes
