@@ -4,7 +4,7 @@ class EnterManuallyBtn extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-      <section class="manually my-4">
+      <section id="manually" class="my-4">
         <btn-border>
           +enter manually
         <btn-border>

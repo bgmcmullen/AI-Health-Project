@@ -4,7 +4,7 @@ class UploadBtn extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-      <section class="upload my-4">
+      <section id="upload" class="my-4">
         <btn-filled>
           +upload
         </btn-filled>

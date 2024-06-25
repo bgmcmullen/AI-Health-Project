@@ -9,7 +9,7 @@ const app = async () => {
   document.getElementById('app').appendChild(await App());
 
   // Unwrapping my custom elements to keep DOM clean
-  $(".upload, .manually").unwrap();
+  $("#upload, #manually").unwrap();
 };
 
 // Load app
