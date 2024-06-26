@@ -9,7 +9,7 @@ const App = async () => {
   const template = document.createElement('template');
   template.innerHTML = `
     ${Header()}
-    <main class="container-fluid flex-fill">
+    <main class="d-flex flex-column flex-fill">
       ${Homepage()}
       ${Uploading()}
     </main>

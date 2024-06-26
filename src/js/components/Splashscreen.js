@@ -18,7 +18,8 @@ const Splashscreen = async (param) => {
   document.addEventListener('DOMContentLoaded', () =>
     wait(param).then(() => {
       $('#splashscreen').fadeOut(500, () => {
-        $('#wrapper').fadeIn(500);
+        $('#app').css("display", "flex");
+        $('#app').fadeIn(500);
       });
     }
   ));

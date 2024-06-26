@@ -1,9 +1,6 @@
 // To be changed later in separate branch
-#wrapper {
+#app {
   display: none;
-
-  #app {
-    border: 1px solid $base-gray;
-    min-height: 100vh;
-  }
+  border: 1px solid $base-gray;
+  min-height: 100vh;
 }
