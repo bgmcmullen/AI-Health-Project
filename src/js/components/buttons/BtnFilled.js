@@ -7,6 +7,10 @@ class BtnFilled extends HTMLElement {
       </button>
     `;
   }
+
+  connectedCallback() {
+    $(".btn-filled").unwrap();
+  }
 }
 
 customElements.define('btn-filled', BtnFilled);

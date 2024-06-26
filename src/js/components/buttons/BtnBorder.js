@@ -9,6 +9,10 @@ class BtnBorder extends HTMLElement {
       </button>
     `;
   }
+
+  connectedCallback() {
+    $(".btn-border").unwrap();
+  }
 }
 
 customElements.define('btn-border', BtnBorder);

@@ -9,6 +9,10 @@ class EnterManuallyBtn extends HTMLElement {
       </section>
     `;
   }
+
+  connectedCallback() {
+    $("#manually").unwrap();
+  }
 }
 
 customElements.define('enter-manually-btn', EnterManuallyBtn);

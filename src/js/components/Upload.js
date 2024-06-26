@@ -2,7 +2,7 @@ class UploadBtn extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-      <section id="upload" class="my-4">
+      <section id="upload">
         <btn-filled>
           +upload
         </btn-filled>
@@ -34,6 +34,10 @@ class UploadBtn extends HTMLElement {
         // analyze data
       });
     });
+  }
+
+  connectedCallback() {
+    $("#upload").unwrap();
   }
 };
 
