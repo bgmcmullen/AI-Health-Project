@@ -2,7 +2,7 @@ class BtnBorder extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-      <button class="btn btn-border lato-bold">
+      <button class="btn-border lato-bold">
         <span class="d-block">
           ${this.innerText}
         </span>

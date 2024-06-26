@@ -1,5 +1,3 @@
-import "./buttons/BtnFilled.js";
-
 class UploadBtn extends HTMLElement {
   constructor() {
     super();

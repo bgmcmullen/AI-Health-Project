@@ -1,5 +1,3 @@
-import "./buttons/BtnBorder.js";
-
 class EnterManuallyBtn extends HTMLElement {
   constructor() {
     super();

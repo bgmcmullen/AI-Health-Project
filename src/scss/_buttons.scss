@@ -1,5 +1,5 @@
 // SHARED BY ALL BUTTONS
-.btn {
+button {
   text-transform: uppercase;
   border-radius: 9999px;
 }
@@ -15,6 +15,10 @@
   border: none;
   color: white;
   padding: 9px 32px;
+  
+  &:hover {
+    filter: brightness(105%);
+  }
 }
 
 // BORDERED BUTTON
@@ -28,5 +32,9 @@
 
   span {
     margin: 8px 32px;
+  }
+
+  &:hover {
+    filter: brightness(97%);
   }
 }

@@ -1,3 +1,5 @@
+import "./components/buttons/BtnBorder.js";
+import "./components/buttons/BtnFilled.js";
 import Homepage from './views/Homepage';
 import Header from './views/Header';
 import Footer from './views/Footer';
