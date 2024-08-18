@@ -47,3 +47,9 @@ $theme-colors: map-merge($theme-colors, (
   font-weight: 300;
   font-style: normal;
 }
+
+// Error message style
+
+#errorModal {
+  color: red;
+}
